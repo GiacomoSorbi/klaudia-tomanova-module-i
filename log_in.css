@@ -133,6 +133,12 @@ h6 > a:hover {
   color: black;
 }
 
+.required {
+  font-size: 10px;
+  color: red;
+  display: none;
+}
+
 /*FOOTER*/
 
 footer {
