@@ -71,7 +71,49 @@ label {
 
 div h3 {
   margin-top: 80px;
-  margin-left: 60px;
+  margin-left: 80px;
+}
+
+.wrapper {
+  padding: 20px 80px;
+}
+
+.wrapper-two ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-two li {
+  height: 300px;
+  width: 200px;
+  border: grey solid;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.wrapper-two a {
+  padding-right: 6px;
+  text-decoration: none;
+  height: 300px;
+  width: 200px;
+  display: block;
+  text-align: center;
+  display: inline-table;
+}
+
+img {
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+p {
+  color: black;
+  font-size: 10px;
+  margin: 10px;
 }
 
 /*FOOTER*/
