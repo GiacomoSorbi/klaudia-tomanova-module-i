@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="" />
+    <title>just.C0FFEE</title>
+    <meta
+      name="description"
+      id="description-meta"
+      content="Browse through coffee shop roasteries and choose a different type of high quality coffee for every delivery. just.C0FFEE connects coffee lovers with independent coffee shops to help local businesses and save your precious time!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:site_name" content="just.C0FFEE" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="icons/favicon.ico" />
+    <link rel="stylesheet" href="choose_coffee.css" />
+    <script
+      src="https://kit.fontawesome.com/7c6d77fc63.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <header>
+    <div class="nav">
+      <div class="logo">
+        <a href="get_my_coffee.html">just.C0FFEE</a>
+      </div>
+      <label id="label" for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle" />
+      <div class="topnav">
+        <a href="get_my_coffee.html">GET MY COFFEE</a>
+        <a href="#">HOW IT WORKS</a>
+        <a href="#">OUR COFFEE ROASTERIES</a>
+        <a href="#">ABOUT US</a>
+        <a href="log_in.html">LOG IN</a>
+      </div>
+    </div>
+  </header>
+  <body>
+    <main>
+      <div class="page-heading">
+        <h1 class="get-my-coffee">Lorem Ipsum Roastery</h1>
+      </div>
+      <div class="wrapper">
+        <div class="wrapper-two">
+          <ul>
+            <li>
+              <div class="coffee">
+                <img
+                  src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
+                />
+                <h6>Brazil</h6>
+                <div class="coffee-info">
+                  <span class="coffee-price">$9.99</span>
+                  <button id="add-brazil" class="btn" type="button">
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="coffee">
+                <img
+                  src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
+                />
+                <h6>Java</h6>
+                <div class="coffee-info">
+                  <span class="coffee-price">$9.99</span>
+                  <button id="add-java" class="btn" type="button">
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="coffee">
+                <img
+                  src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
+                />
+                <h6>Columbia</h6>
+                <div class="coffee-info">
+                  <span class="coffee-price">$9.99</span>
+                  <button id="add-columbia" class="btn" type="button">
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="coffee">
+                <img
+                  src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
+                />
+                <h6>Italy</h6>
+                <div class="coffee-info">
+                  <span class="coffee-price">$9.99</span>
+                  <button id="add-italy" class="btn" type="button">
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="shopping-cart">
+        <h2>Shopping Cart</h2>
+        <div class="shopping-cart-names">
+          <span class="name-item">ITEM</span>
+          <span class="name-price">PRICE</span>
+          <span class="name-count">COUNT</span>
+        </div>
+        <div class="shopping-cart-items">
+          <div id="brazil" class="cart-item">
+            <div class="item-name">
+              <img
+                src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
+              />
+              <span>Brazil</span>
+            </div>
+            <span>$9.99</span>
+            <div class="input">
+              <input type="number" value="1" />
+            </div>
+            <button id="btn-brazil" class="btn-remove" type="button">
+              REMOVE
+            </button>
+          </div>
+          <div id="java" class="cart-item">
+            <div class="item-name">
+              <img
+                src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
+              />
+              <span>Java</span>
+            </div>
+            <span>$9.99</span>
+            <div class="input">
+              <input type="number" value="1" />
+            </div>
+            <button id="btn-java" class="btn-remove" type="button">
+              REMOVE
+            </button>
+          </div>
+          <div id="columbia" class="cart-item">
+            <div class="item-name">
+              <img
+                src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
+              />
+              <span>Columbia</span>
+            </div>
+            <span>$9.99</span>
+            <div class="input">
+              <input type="number" value="1" />
+            </div>
+            <button id="btn-columbia" class="btn-remove" type="button">
+              REMOVE
+            </button>
+          </div>
+          <div id="italy" class="cart-item">
+            <div class="item-name">
+              <img
+                src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
+              />
+              <span>Italy</span>
+            </div>
+            <span>$9.99</span>
+            <div class="input">
+              <input type="number" value="1" />
+            </div>
+            <button id="btn-italy" class="btn-remove" type="button">
+              REMOVE
+            </button>
+          </div>
+        </div>
+        <div class="cart-total">
+          <h3>TOTAL</h3>
+          <input id="cart-total" type="number" value="0" />
+        </div>
+        <div class="checkout-button">
+          <button class="btn-checkout">CHECKOUT</button>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-nav">
+          <div class="column-one">
+            <h2>ABOUT just.C0FFEE</h2>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="column-two">
+            <h2>FOLLOW US</h2>
+            <div class="social">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="column-three">
+            <h2>JOIN OUR C0FFEE SQUAD!</h2>
+            <form action="">
+              <input type="email" placeholder="Enter your email address" />
+              <button id="footer-button" type="submit">
+                <i
+                  id="plane-icon"
+                  class="fa fa-paper-plane"
+                  aria-hidden="true"
+                ></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            All Rights reserved by &copy;just.C0FFEE.2020
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="choose_coffee.js"></script>
+  </body>
+</html>
