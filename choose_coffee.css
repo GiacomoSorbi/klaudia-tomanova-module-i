@@ -446,6 +446,43 @@ input[type="email"] {
   .shopping-cart-names {
     margin-top: 50px;
   }
+
+  .shopping-cart img {
+    height: 90px;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .item-name {
+    display: block;
+    margin: 10px;
+    width: 30%;
+  }
+
+  .cart-item span {
+    font-size: 12px;
+    width: 20%;
+  }
+
+  .cart-item input {
+    font-size: 14px;
+    width: 40%;
+  }
+
+  .btn-remove {
+    margin: 0;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .name-item {
+    width: 17%;
+  }
+
+  .name-price {
+    width: 10%;
+  }
 }
 
 /*iPad*/
