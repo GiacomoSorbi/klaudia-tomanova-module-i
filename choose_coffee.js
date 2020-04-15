@@ -34,10 +34,50 @@ removeButtonItaly.onclick = removeItalyFromCart;
 //
 
 //Add Items To Shopping Cart
+//Brazil
 let addBrazil = document.getElementById("add-brazil");
 
 let addBrazilToCart = () => {
+  document.getElementById("shopping-cart").appendChild(itemBrazil);
   itemBrazil.style.display = "flex";
 };
 
 addBrazil.onclick = addBrazilToCart;
+
+//Java
+let addJava = document.getElementById("add-java");
+
+let addJavaToCart = () => {
+  document.getElementById("shopping-cart").appendChild(itemJava);
+  itemJava.style.display = "flex";
+};
+
+addJava.onclick = addJavaToCart;
+
+//Columbia
+let addColumbia = document.getElementById("add-columbia");
+
+let addColumbiaToCart = () => {
+  document.getElementById("shopping-cart").appendChild(itemColumbia);
+  itemColumbia.style.display = "flex";
+};
+
+addColumbia.onclick = addColumbiaToCart;
+
+//Italy
+let addItaly = document.getElementById("add-italy");
+
+let addItalyToCart = () => {
+  document.getElementById("shopping-cart").appendChild(itemItaly);
+  itemItaly.style.display = "flex";
+};
+
+addItaly.onclick = addItalyToCart;
+
+//TOTAL $ update
+let cartTotal = document.getElementById("cart-total");
+let cartItem = document.getElementById("shopping-cart").childElement;
+
+let updateCartTotal = () => {
+  cartTotal.innerHTML = cartItem.value;
+};

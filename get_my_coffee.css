@@ -117,7 +117,7 @@ img {
   width: 150px;
 }
 
-p {
+.wrapper-two p {
   color: black;
   font-size: 10px;
   margin: 10px;
@@ -285,6 +285,10 @@ button {
   .wrapper-two ul {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .wrapper {
+    padding: 20px 50px;
   }
 }
 

@@ -400,6 +400,15 @@ input[type="email"] {
     padding: 20px 0 20px 0;
   }
 
+  form {
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    position: relative;
+  }
+
   .column-three form {
     display: flex;
     justify-content: center;
@@ -416,6 +425,26 @@ input[type="email"] {
   .wrapper-two ul {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .btn {
+    font-size: 10px;
+  }
+
+  .page-heading h1 {
+    text-align: center;
+  }
+
+  .wrapper {
+    padding: 30px 50px;
+  }
+
+  .shopping-cart {
+    margin: 20px 30px;
+  }
+
+  .shopping-cart-names {
+    margin-top: 50px;
   }
 }
 
@@ -451,6 +480,23 @@ input[type="email"] {
   }
 
   .wrapper-two li {
-    flex-basis: 45%;
+    flex-basis: 40%;
+    margin: 20px;
+  }
+
+  .shopping-cart {
+    margin: 20px 100px;
+  }
+
+  .wrapper {
+    padding: 30px 80px;
+  }
+
+  .item-name {
+    width: 55%;
+  }
+
+  .cart-item span {
+    width: 30%;
   }
 }
