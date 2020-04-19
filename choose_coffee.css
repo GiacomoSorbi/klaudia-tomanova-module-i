@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   height: 100vh;
   background: white;
@@ -136,6 +140,8 @@ img {
   color: black;
 }
 
+/*Shopping Cart*/
+
 .shopping-cart {
   margin: 80px 300px;
 }
@@ -173,11 +179,8 @@ img {
   justify-content: space-between;
 }
 
-#brazil,
-#java,
-#columbia,
-#italy {
-  display: none;
+.cart-item {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
@@ -220,6 +223,11 @@ img {
 
 .input {
   width: 10%;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
 }
 
 .cart-total {

@@ -9,17 +9,13 @@ form.addEventListener("submit", (e) => {
 
 function loginValidation() {
   let usernameValue = username.value.trim();
-  let passwordValue = password.value.trim();
+  let passwordValue = password.value;
 
   if (usernameValue === "") {
     document.getElementById("username-required").style.display = "block";
-  } else {
-    return username;
   }
 
   if (passwordValue === "") {
     document.getElementById("password-required").style.display = "block";
-  } else {
-    return password;
   }
 }

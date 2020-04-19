@@ -10,7 +10,6 @@
       id="description-meta"
       content="Browse through coffee shop roasteries and choose a different type of high quality coffee for every delivery. just.C0FFEE connects coffee lovers with independent coffee shops to help local businesses and save your precious time!"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:site_name" content="just.C0FFEE" />
     <meta property="og:type" content="website" />
     <link rel="icon" href="icons/favicon.ico" />
@@ -47,9 +46,10 @@
             <li>
               <div class="coffee">
                 <img
+                  class="coffee-img"
                   src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
                 />
-                <h6>Brazil</h6>
+                <h6 class="coffee-name">Brazil</h6>
                 <div class="coffee-info">
                   <span class="coffee-price">$9.99</span>
                   <button id="add-brazil" class="btn" type="button">
@@ -61,9 +61,10 @@
             <li>
               <div class="coffee">
                 <img
+                  class="coffee-img"
                   src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
                 />
-                <h6>Java</h6>
+                <h6 class="coffee-name">Java</h6>
                 <div class="coffee-info">
                   <span class="coffee-price">$9.99</span>
                   <button id="add-java" class="btn" type="button">
@@ -75,9 +76,10 @@
             <li>
               <div class="coffee">
                 <img
+                  class="coffee-img"
                   src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
                 />
-                <h6>Columbia</h6>
+                <h6 class="coffee-name">Columbia</h6>
                 <div class="coffee-info">
                   <span class="coffee-price">$9.99</span>
                   <button id="add-columbia" class="btn" type="button">
@@ -89,9 +91,10 @@
             <li>
               <div class="coffee">
                 <img
+                  class="coffee-img"
                   src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
                 />
-                <h6>Italy</h6>
+                <h6 class="coffee-name">Italy</h6>
                 <div class="coffee-info">
                   <span class="coffee-price">$9.99</span>
                   <button id="add-italy" class="btn" type="button">
@@ -110,71 +113,10 @@
           <span class="name-price">PRICE</span>
           <span class="name-count">COUNT</span>
         </div>
-        <div id="shopping-cart" class="shopping-cart-items">
-          <div id="brazil" class="cart-item">
-            <div class="item-name">
-              <img
-                src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
-              />
-              <span>Brazil</span>
-            </div>
-            <span value="9.99">$9.99</span>
-            <div class="input">
-              <input type="number" value="1" />
-            </div>
-            <button id="btn-brazil" class="btn-remove" type="button">
-              REMOVE
-            </button>
-          </div>
-          <div id="java" class="cart-item">
-            <div class="item-name">
-              <img
-                src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
-              />
-              <span>Java</span>
-            </div>
-            <span>$9.99</span>
-            <div class="input">
-              <input type="number" value="1" />
-            </div>
-            <button id="btn-java" class="btn-remove" type="button">
-              REMOVE
-            </button>
-          </div>
-          <div id="columbia" class="cart-item">
-            <div class="item-name">
-              <img
-                src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
-              />
-              <span>Columbia</span>
-            </div>
-            <span>$9.99</span>
-            <div class="input">
-              <input type="number" value="1" />
-            </div>
-            <button id="btn-columbia" class="btn-remove" type="button">
-              REMOVE
-            </button>
-          </div>
-          <div id="italy" class="cart-item">
-            <div class="item-name">
-              <img
-                src="https://www.decolore.net/wp-content/uploads/2018/08/coffee-paper-bag-mockup.jpg"
-              />
-              <span>Italy</span>
-            </div>
-            <span>$9.99</span>
-            <div class="input">
-              <input type="number" value="1" />
-            </div>
-            <button id="btn-italy" class="btn-remove" type="button">
-              REMOVE
-            </button>
-          </div>
-        </div>
+        <div id="shopping-cart" class="shopping-cart-items"></div>
         <div class="cart-total">
           <h3>TOTAL</h3>
-          <input id="cart-total" type="number" value="0" />
+          <span id="cart-total">$0</span>
         </div>
         <div class="checkout-button">
           <button class="btn-checkout">CHECKOUT</button>
