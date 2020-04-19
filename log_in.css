@@ -141,6 +141,8 @@ h6 > a:hover {
   font-size: 10px;
   color: red;
   display: none;
+  position: absolute;
+  margin-left: 50px;
 }
 
 input::-webkit-inner-spin-button,

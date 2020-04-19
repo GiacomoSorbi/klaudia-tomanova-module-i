@@ -92,7 +92,6 @@ label {
   background-color: lightgray;
   border-radius: 10px;
   margin: 10px;
-  cursor: pointer;
   display: flex;
   justify-content: center;
   outline-width: 0px;
