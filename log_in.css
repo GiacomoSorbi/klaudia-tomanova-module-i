@@ -143,6 +143,15 @@ h6 > a:hover {
   display: none;
 }
 
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input:-webkit-autofill {
+  transition: background-color 5000s;
+}
+
 /*FOOTER*/
 
 footer {
