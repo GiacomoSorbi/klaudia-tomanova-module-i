@@ -22,13 +22,12 @@ header {
 }
 
 .nav {
-  background-color: pink;
+  background-color: #ffaaa5;
   text-align: right;
   height: 70px;
   line-height: 70px;
   position: fixed;
   width: 100%;
-  z-index: 1;
 }
 
 .topnav {
@@ -42,7 +41,7 @@ header {
 .nav a {
   clear: right;
   text-decoration: none;
-  color: gray;
+  color: black;
   margin: 0 10px;
   line-height: 70px;
 }
@@ -69,89 +68,24 @@ label {
 
 /*MAIN SITE NAVIGATION*/
 
-.box {
-  margin: 0 auto;
+.page-heading {
   display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.form {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #fff7f7;
-  padding: 150px;
-  text-align: center;
-  border-radius: 10%;
-  box-shadow: 10px 5px 5px #dadada;
-}
-
-.heading {
-  font-size: 30px;
-  padding-bottom: 30px;
-  font-weight: bold;
-}
-
-.fillin {
-  margin: 0;
-}
-
-.fillin input {
-  width: 80%;
-  padding: 15px;
-  margin-top: 10px;
-  border: none;
-  background: #fff7f7;
-  font-size: 15px;
-}
-
-.fillin > i {
-  margin: 0;
-  font-size: 18px;
-}
-
-h6 > a {
-  text-decoration: none;
-  color: grey;
-}
-
-h6 > a:hover {
-  color: pink;
-}
-
-#login-button {
-  margin: 30px auto;
-  padding: 10px 50px;
-  background-color: black;
-  border: none;
-  border-radius: 30px;
-  color: #dadada;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-#login-button:hover {
-  background: pink;
-  color: black;
-}
-
-.required {
-  font-size: 10px;
-  color: red;
-  display: none;
-  position: absolute;
-  margin-left: 50px;
-}
-
-input::-webkit-inner-spin-button,
-input::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-}
-
-input:-webkit-autofill {
-  transition: background-color 5000s;
+.under-construction {
+  height: 50%;
+  width: 50%;
+  border-radius: 20px;
 }
 
 /*FOOTER*/
@@ -163,7 +97,7 @@ footer {
 }
 
 .footer-container {
-  background-color: grey;
+  background-color: #698474;
 }
 
 .footer-nav {
@@ -178,7 +112,7 @@ footer {
 
 .footer-bottom {
   text-align: center;
-  background: #000;
+  background: #0d1811;
   line-height: 75px;
   color: grey;
 }
@@ -230,7 +164,7 @@ input[type="email"] {
   left: 0;
 }
 
-#footer-button {
+button {
   padding: 12px 15px;
   height: 35px;
   width: 40px;
@@ -295,12 +229,12 @@ input[type="email"] {
     padding: 20px 0 20px 0;
   }
 
-  .column-three form {
+  form {
     display: flex;
     justify-content: center;
   }
 
-  #footer-button {
+  button {
     position: relative;
   }
 
@@ -308,8 +242,13 @@ input[type="email"] {
     font-size: 12px;
   }
 
-  .form {
-    padding: 50px;
+  .wrapper-two ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wrapper {
+    padding: 20px 50px;
   }
 }
 
@@ -337,5 +276,14 @@ input[type="email"] {
 
   .topnav {
     margin-top: -10px;
+  }
+
+  .wrapper-two ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wrapper-two li {
+    flex-basis: 45%;
   }
 }

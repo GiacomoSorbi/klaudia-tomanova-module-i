@@ -13,7 +13,7 @@
     <meta property="og:site_name" content="just.C0FFEE" />
     <meta property="og:type" content="website" />
     <link rel="icon" href="icons/favicon.ico" />
-    <link rel="stylesheet" href="log_in.css" />
+    <link rel="stylesheet" href="../About/about_us.css" />
     <script
       src="https://kit.fontawesome.com/7c6d77fc63.js"
       crossorigin="anonymous"
@@ -22,60 +22,32 @@
   <header>
     <div class="nav">
       <div class="logo">
-        <a href="get_my_coffee.html">just.C0FFEE</a>
+        <a href="../Get_my_coffee/get_my_coffee.html">just.C0FFEE</a>
       </div>
       <label id="label" for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle" />
       <div class="topnav">
-        <a href="get_my_coffee.html">GET MY COFFEE</a>
-        <a href="#">HOW IT WORKS</a>
-        <a href="#">OUR COFFEE ROASTERIES</a>
-        <a href="#">ABOUT US</a>
-        <a href="log_in.html">LOG IN</a>
+        <a href="../Get_my_coffee/get_my_coffee.html">GET MY COFFEE</a>
+        <a href="../How_it_works/how_it_works.html">HOW IT WORKS</a>
+        <a href="../Our_coffee_roasteries/our_coffee_roasteries.html"
+          >OUR COFFEE ROASTERIES</a
+        >
+        <a href="../About/about_us.html">ABOUT US</a>
+        <a href="../Log_in/log_in.html">LOG IN</a>
       </div>
     </div>
   </header>
   <body>
+    <!--MAIN-->
     <main>
-      <div class="box">
-        <div class="form">
-          <span class="heading">Login</span>
-          <form method="POST" id="form">
-            <div class="fillin">
-              <i class="fas fa-user"></i>
-              <input
-                id="username"
-                type="text"
-                name="username"
-                placeholder="Username..."
-              />
-            </div>
-            <span id="username-required" class="required"
-              >Username required</span
-            >
-            <div class="fillin">
-              <i class="fas fa-lock"></i>
-              <input
-                id="password"
-                type="password"
-                name="password"
-                placeholder="Password..."
-              />
-            </div>
-            <span id="password-required" class="required"
-              >Password required</span
-            >
-            <div class="fillin">
-              <button id="login-button">
-                <i class="far fa-paper-plane"></i>
-              </button>
-            </div>
-            <h6>
-              Don't have an account? <a href="#" class="btn">Register here</a>
-            </h6>
-          </form>
-        </div>
+      <div class="page-heading">
+        <h1 class="get-my-coffee">just.C0FFEE</h1>
       </div>
+      <img
+        class="under-construction"
+        src="https://image.freepik.com/free-vector/coming-soon-blue-sign_23-2147502480.jpg"
+        alt="Page under construction, check again  later"
+      />
     </main>
     <!--FOOTER-->
     <footer>
@@ -84,10 +56,12 @@
           <div class="column-one">
             <h2>ABOUT just.C0FFEE</h2>
             <ul>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">How It Works</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="../About/about_us.html">Our Story</a></li>
+              <li>
+                <a href="../How_it_works/how_it_works.html">How It Works</a>
+              </li>
+              <li><a href="../About/about_us.html">FAQ</a></li>
+              <li><a href="../About/about_us.html">Contact Us</a></li>
             </ul>
           </div>
           <div class="column-two">
@@ -100,8 +74,9 @@
           <div class="column-three">
             <h2>JOIN OUR C0FFEE SQUAD!</h2>
             <form action="">
+              <label for="email">Email</label>
               <input type="email" placeholder="Enter your email address" />
-              <button id="footer-button" type="submit">
+              <button type="submit">
                 <i
                   id="plane-icon"
                   class="fa fa-paper-plane"
@@ -118,6 +93,5 @@
         </div>
       </div>
     </footer>
-    <script src="log_in.js"></script>
   </body>
 </html>

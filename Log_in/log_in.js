@@ -3,7 +3,6 @@ let password = document.getElementById("password");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-
   loginValidation();
 });
 
@@ -13,9 +12,13 @@ function loginValidation() {
 
   if (usernameValue === "") {
     document.getElementById("username-required").style.display = "block";
+  } else {
+    document.getElementById("username-required").style.display = "none";
   }
 
   if (passwordValue === "") {
     document.getElementById("password-required").style.display = "block";
+  } else {
+    document.getElementById("password-required").style.display = "none";
   }
 }
