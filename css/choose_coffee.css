@@ -40,8 +40,6 @@ header {
   transition: 0.2s;
 }
 
-
-
 .nav a {
   clear: right;
   text-decoration: none;
@@ -91,7 +89,7 @@ label {
 .wrapper-two li {
   height: 300px;
   width: 400px;
-  border: #fcf8f3; solid;
+  border: #fcf8f3 solid;
   background-color: #fcf8f3;
   border-radius: 10px;
   margin: 10px;
@@ -271,7 +269,6 @@ input::-webkit-outer-spin-button {
 }
 
 .btn-checkout:hover {
- 
   box-shadow: none;
   background: #f7721a;
   transition: 0.2s;
