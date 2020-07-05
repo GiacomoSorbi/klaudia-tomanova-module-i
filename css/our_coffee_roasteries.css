@@ -191,7 +191,7 @@ button {
   label {
     display: block;
     cursor: pointer;
-    color: gray;
+    color: black;
   }
 
   .topnav {
@@ -207,7 +207,7 @@ button {
 
   #toggle:checked + .topnav {
     display: block;
-    background-color: pink;
+    background-color: #ffaaa5;
   }
 
   .logo a {

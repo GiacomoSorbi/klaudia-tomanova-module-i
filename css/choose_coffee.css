@@ -377,7 +377,7 @@ input[type="email"] {
   label {
     display: block;
     cursor: pointer;
-    color: gray;
+    color: black;
   }
 
   .topnav {
@@ -393,7 +393,7 @@ input[type="email"] {
 
   #toggle:checked + .topnav {
     display: block;
-    background-color: pink;
+    background-color: #ffaaa5;
   }
 
   .logo a {
